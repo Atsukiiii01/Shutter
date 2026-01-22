@@ -28,7 +28,7 @@ It runs silently in your system tray and provides native desktop notifications w
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/Shutter.git](https://github.com/YOUR_USERNAME/Shutter.git)
+git clone https://github.com/Atsukiiii01/Shutter.git
 cd Shutter
 2. Install Dependencies
 Bash
