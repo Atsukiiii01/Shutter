@@ -30,8 +30,8 @@ It runs silently in your system tray and provides native desktop notifications w
 ```bash
 git clone https://github.com/Atsukiiii01/Shutter.git
 cd Shutter
+
 2. Install Dependencies
-Bash
 
 pip install -r requirements.txt
 (Note: If you are on macOS, use pip3 instead of pip)
@@ -39,9 +39,8 @@ pip install -r requirements.txt
 💻 Usage
 Run the application using Python:
 
-Bash
-
 python Shutter.py
+
 What to Expect:
 A Green Circle icon will appear in your System Tray (Windows: Bottom right / macOS: Top right).
 
@@ -59,8 +58,8 @@ Permissions: You must allow your Terminal (or VS Code) access to Microphone and 
 Running: If the GUI does not appear, try running with:
 
 Bash
-
 pythonw Shutter.py
+
 📦 Building an Executable
 To turn this python script into a standalone app (.exe or .app) that you can share with friends:
 
