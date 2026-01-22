@@ -1,10 +1,3 @@
-A professional README.md is critical for GitHub. It tells people what your project does and how to use it.
-
-Create a new file in your VS Code folder named README.md and paste the following Markdown code into it.
-
-Copy & Paste This:
-Markdown
-
 # 👁️ Shutter - Privacy Guard
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
@@ -48,7 +41,7 @@ Run the application using Python:
 
 Bash
 
-python main.py
+python Shutter.py
 What to Expect:
 A Green Circle icon will appear in your System Tray (Windows: Bottom right / macOS: Top right).
 
@@ -67,7 +60,7 @@ Running: If the GUI does not appear, try running with:
 
 Bash
 
-pythonw main.py
+pythonw Shutter.py
 📦 Building an Executable
 To turn this python script into a standalone app (.exe or .app) that you can share with friends:
 
@@ -76,13 +69,26 @@ Windows:
 Bash
 
 pyinstaller --onefile --noconsole --icon=icon.ico --name "Shutter" main.py
+
 macOS:
 
 Bash
 
 pyinstaller --onefile --windowed --name "Shutter" main.py
 
+## ⚠️ Important Disclaimer: Educational Use Only
 
-Kunal Stuff to Do
+**Please read this section carefully before using the software.**
 
-MAKE GUI....
+This tool is developed and distributed for **educational and research purposes only**. It is intended to help developers, researchers, and students understand secuirty and privacy.
+
+* **Authorized Use:** This tool should only be used on systems where you have explicit permission or ownership.
+* **Liability:** The developer(s) of Shutter are not responsible for any misuse of this software or any damage caused by using this tool. The user assumes all responsibility for complying with local laws and regulations.
+
+## 🔒 Privacy Policy: No Data Collection
+
+We believe in transparency and privacy.
+
+* **No Logging:** Shutter does not collect, store, or transmit any personal data, system logs, or usage statistics.
+* **No External Connections:** This tool operates entirely locally on your machine. It does not connect to any remote command-and-control servers, cloud storage, or third-party APIs unless explicitly configured by the user within the source code.
+* **Source Code Transparency:** As an open-source project, you are encouraged to review the code to verify that no data exfiltration mechanisms exist.
